@@ -1,7 +1,7 @@
 ---
 layout: 2column
 title: Student Work
-permalink: /research/
+permalink: /research/student.html
 ---
 
 Samuel Barton is a sophomore at USM majoring in Computer Science. He is a MCSC Student Research Associate and specializes in computer programing. Samuel is working on The Sensor Project. 
