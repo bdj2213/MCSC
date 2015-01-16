@@ -454,7 +454,7 @@ a.image-link:hover:after {
 	text-align: center;
 }
 .main-content-inner {
-	padding-top: 110px;
+	padding-top: 140px;
 	padding-bottom: 20px;
 	display: inline-block;
 	text-align: left;
@@ -485,8 +485,12 @@ body.home .main-content-inner {
 /* -------------------------------- */
 /* Topbar Height
 /* -------------------------------- */
-.topbar-outer, .topbar, .topnav, .topnav li, .topnav li a, .topsocial, .topsocial li {
-	height: 60px;
+.topbar-outer, .topbar,  .topsocial, .topsocial li {
+	height: 80px;
+}
+.topnav, .topnav li a, .topnav li {
+	height:40px;
+	color:#1B222E;
 }
 /* -------------------------------- */
 /* White Top Bar Properties */
@@ -1146,7 +1150,10 @@ body.home .topbar-outer.dark {
 .home-cta-bar-container {
 	float: left;
 	width: 100%;
-	padding: 26px 0 26px 0;
+	padding: 0px 0 0px 0;
+	position:fixed;
+	top:80px;
+	z-index:999;
 }
 .home-cta-bar {
 	display: table;
@@ -2768,6 +2775,7 @@ i {
 	padding: 24px 0 18px 0;
 	position: relative;
 }
+
 /* --------------------------------------------------------------------------------- */
 /* Footer Widgets
 /* --------------------------------------------------------------------------------- */
