@@ -1,7 +1,8 @@
 ---
 layout: 2column
 title: Director's Overview
-permalink: /about/directoroverview.html
+permalink: /about/index.html
+category: about
 ---
 
 
