@@ -20,3 +20,6 @@ Melissa Miller is a junior at USM majoring in Information Technology, with a Cyb
 
 <h3>Alex Weeman</h3>
 Alex Weeman is a sophomore at USM majoring in Information Communications Technology. He is a MCSC Student Research Associate with additional responsibilities as a MCSC student systems and network administrator. He specializes in computer hardware and networking. Alex is involved in two projects: Statistics Servers and Experience a Cyber Event (EACE). 
+
+<h3>Kimberly Reali</h3>
+Kimberly Reali is a Senior at USM majoring in Technology Management and minoring in Information & Communications, as well as Computer Science. She is a MCSC Student Research Associate and specializes in Technology and Cyber Security. Kimberly is currently working on developing Python Tools for pentesting and process automation, as well as helping an establishment to meet the new PCI DSS 3.0 Compliance Requirement for her Capstone. 
