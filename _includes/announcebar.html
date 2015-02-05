@@ -9,22 +9,18 @@
 								<!-- Post -->
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<div class="post">
+									{% for post in site.categories.announce %}
+      									<li style="list-style:none;">
+   
 
-									<!-- Image Column 
-									<div class="img-column">
-										<a href="blog-post.html" class="image-link mini"><img alt="" src="images/placeholders/placeholder-mini.jpg" class="fullwidth"/></a>
-									</div>
-=======
-									<!-- Image Column -->
-								
-
-									<!-- Content Column -->
-									<div class="content-column">
-										<!-- Post Title -->
-										<p class="sub-title"><a href="blog-post.html">Sign Up for USM COS 470 - Special Topics: Computer Security</a></p>
-										<!-- Date -->
-										<div class="date"></div>
-									</div>
+         									<h4></h4>
+          									<a class="post-link" style="font-size:14pt;" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          
+        
+        									<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+    							 		 </li>
+      
+   									 {% endfor %}
 								</div>
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<!-- END Post -->
@@ -42,13 +38,7 @@
 =======
 									<!-- Image Column -->
 									
-									<!-- Content Column -->
-									<div class="content-column">
-										<!-- Post Title -->
-										<p class="sub-title"><a href="blog-post.html">Enroll TOday: Cybersecurity Fall 2014 Course Offerings from MCSC and Partners</a></p>
-										<!-- Date -->
-										<div class="date"></div>
-									</div>
+								
 								</div>
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<!-- END Post -->
