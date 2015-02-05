@@ -1,5 +1,5 @@
 ---
-layout: 2column
+layout: news
 title: News
 permalink: /news/index.html
 category: news

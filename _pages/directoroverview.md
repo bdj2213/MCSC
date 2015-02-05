@@ -1,5 +1,5 @@
 ---
-layout: 2column
+layout: about
 title: Director's Overview
 permalink: /about/index.html
 category: about

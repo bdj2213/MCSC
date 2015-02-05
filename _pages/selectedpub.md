@@ -1,5 +1,5 @@
 ---
-layout: 2column
+layout: res
 title: Selected Publications
 permalink: /research/selectedpub.html
 category: research
