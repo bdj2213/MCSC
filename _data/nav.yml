@@ -29,6 +29,7 @@
  
 - title: "Education"
   href: "education/"
+  subcategories:
     - subtitle: "Outreach"
       subhref: "education/"
     - subtitle: "Media"
@@ -36,12 +37,14 @@
  
 - title: "News"
   href: "news/"
-    - subtitle: Current"
+  subcategories:
+    - subtitle: "Current"
       subhref: "news/"
     - subtitle: "Archive"
       subhref: "news/archive.html"
  
 - title: "Resources"
   href: "resources/"
-    - subtitle: Calendar of Events"
+  subcategories:
+    - subtitle: "Calendar of Events"
       subhref: "resources/coe.html"
