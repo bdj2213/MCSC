@@ -1,5 +1,5 @@
 ---
-layout: 2column
+layout: edu
 title: Outreach
 permalink: /education/index.html
 category: education

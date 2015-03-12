@@ -2,8 +2,15 @@
 							<!-- Categories -->
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<div class="sidebar-widget categories">
-								<!-- Title -->
-								
+								<ul ><h3 style="margin-bottom:5px;">Quick Links</h3>
+                
+                					
+               						<li><a href="{{site.baseurl}}about/index.html">Director's Overview</a></li>
+                					<li><a href="{{site.baseurl}}about/collaborators.html">Collaborators</a></li>
+                					<li><a href="{{site.baseurl}}about/sponsors.html">Sponsors</a></li>
+                					<li><a href="{{site.baseurl}}about/facultystaff.html">Faculty & Staff</a></li>
+               						<li><a href="{{site.baseurl}}about/student.html">Students</a></li>
+              					</ul>
 							</div>
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<!-- END Categories -->
@@ -12,11 +19,20 @@
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<!-- Search -->
 							<!-- ~~~~~~~~~~~~~~~~~ -->
+							<h3 style="margin-bottom:5px;">Latest Posts</h3>
 							<div class="sidebar-widget search">
-								<!-- Title -->
-								
-								<!-- Search Form -->
-								
+								<ul class="post-list">
+    								{% for post in site.posts %}
+      									<li>
+  
+        									<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title }}</a>
+
+        									<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        									<h4></h4>
+      									</li>
+      
+   									 {% endfor %}
+  								</ul>
 							</div>
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<!-- END Search -->
@@ -38,7 +54,7 @@
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<div class="sidebar-widget posts">
 								<!-- Title -->
-								<h3>Popular Posts</h3>
+						
 
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<!-- Post -->

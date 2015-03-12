@@ -1,5 +1,5 @@
 ---
-layout: 2column
+layout: res
 title: Selected Presenations
 permalink: /research/selectedpres.html
 category: research

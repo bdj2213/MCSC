@@ -3,12 +3,15 @@
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<div class="sidebar-widget categories">
 								<!-- Title -->
-								<h3>Blog Categories</h3>
-								<!-- Category Links -->
-								<a href="#">Social Networking</a>
-								<a href="#">Grade-A Online Marketing</a>
-								<a href="#">Portable Computing</a>
-								<a href="#">Online Merchandising</a>
+									
+								<ul ><h3 style="margin-bottom:5px;">Quick Links</h3>
+                
+                					
+               						<li><a href="{{site.baseurl}}news/index.html">Current</a></li>
+               						
+                					<li><a href="{{site.baseurl}}news/archive.html">Archive</a></li>
+               				
+              					</ul>
 							</div>
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<!-- END Categories -->
@@ -18,17 +21,21 @@
 							<!-- Search -->
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<div class="sidebar-widget search">
-								<!-- Title -->
-								<h3>Blog Search</h3>
-								<!-- Search Form -->
-								<form name="blog-search" method="get" action="#">
-									<div class="container">
-										<!-- Textbox -->
-										<input type="text" id="blog-search" name="blog-search" placeholder="Type and hit enter"/>
-										<!-- Search Button -->
-										<input type="submit" id="go" class="go" value="&#xf002;">
-									</div>
-								</form>
+									<h3 style="margin-bottom:5px;">Latest Posts</h3>
+							<div class="sidebar-widget search">
+								<ul class="post-list">
+    								{% for post in site.posts %}
+      									<li>
+  
+        									<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title }}</a>
+
+        									<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        									<h4></h4>
+      									</li>
+      
+   									 {% endfor %}
+  								</ul>
+							
 							</div>
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<!-- END Search -->
@@ -38,14 +45,6 @@
 							<!-- Latest Project -->
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<div class="sidebar-widget project">
-								<!-- Title -->
-								<h3>Latest Project</h3>
-								<!-- Image -->
-								<a href="portfolio-detail.html" class="image-link"><img alt="" src="images/placeholders/placeholder-large.jpg" class="fullwidth"/></a>
-								<!-- Project Title -->
-								<h3 class="sub-title"><a href="portfolio-detail.html">ATEX Sportsware</a></h3>
-								<!-- Tags -->
-								<div class="tags">Branding</div>
 							</div>
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<!-- END Latest Project -->
@@ -55,24 +54,7 @@
 							<!-- Popular Posts -->
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<div class="sidebar-widget posts">
-								<!-- Title -->
-								<h3>Popular Posts</h3>
-
-								<!-- ~~~~~~~~~~~~~~~~~ -->
-								<!-- Post -->
-								<!-- ~~~~~~~~~~~~~~~~~ -->
-								<div class="post">
-									<!-- Image Column -->
-									<div class="img-column">
-										<a href="blog-post.html" class="image-link mini"><img alt="" src="images/placeholders/placeholder-mini.jpg" class="fullwidth"/></a>
-									</div>
-									<!-- Content Column -->
-									<div class="content-column">
-										<!-- Post Title -->
-										<h3 class="sub-title"><a href="blog-post.html">Lorem Ipsum is simply dummy text of the printing</a></h3>
-										<!-- Date -->
-										<div class="date">14 December 2011</div>
-									</div>
+							
 								</div>
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<!-- END Post -->
@@ -83,16 +65,7 @@
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<div class="post">
 									<!-- Image Column -->
-									<div class="img-column">
-										<a href="blog-post.html" class="image-link mini"><img alt="" src="images/placeholders/placeholder-mini.jpg" class="fullwidth"/></a>
-									</div>
-									<!-- Content Column -->
-									<div class="content-column">
-										<!-- Post Title -->
-										<h3 class="sub-title"><a href="blog-post.html">Super awesome blog page title</a></h3>
-										<!-- Date -->
-										<div class="date">14 December 2011</div>
-									</div>
+							
 								</div>
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<!-- END Post -->
@@ -103,16 +76,7 @@
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<div class="post">
 									<!-- Image Column -->
-									<div class="img-column">
-										<a href="blog-post.html" class="image-link mini"><img alt="" src="images/placeholders/placeholder-mini.jpg" class="fullwidth"/></a>
-									</div>
-									<!-- Content Column -->
-									<div class="content-column">
-										<!-- Post Title -->
-										<h3 class="sub-title"><a href="blog-post.html">The standard chunk of Lorem Ipsum used since...</a></h3>
-										<!-- Date -->
-										<div class="date">14 December 2011</div>
-									</div>
+								
 								</div>
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<!-- END Post -->
