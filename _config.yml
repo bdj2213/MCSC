@@ -15,4 +15,5 @@ markdown: kramdown
 permalink: '/blog/:year/:title/'
 paginate_path: '/blog/page:num/'
 include: ['_pages']
+include: ['_newsFeed']
 

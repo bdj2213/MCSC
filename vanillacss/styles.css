@@ -169,7 +169,8 @@ h2 {
 h3 {
 	font-size: 15px;
 	font-weight: 500; /* Medium */
-	margin-bottom:20px;
+	margin-top:10px;
+	margin-bottom:5px;
 	line-height:22px;
 	clear:both;
 }
@@ -3569,4 +3570,21 @@ i {
 	src: url('raleway-font/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('raleway-font/raleway-extrabold-webfont.woff') format('woff'), url('raleway-font/raleway-extrabold-webfont.ttf') format('truetype'), url('raleway-font/raleway-extrabold-webfont.svg#raleway') format('svg');
 	font-weight: 800;
 	font-style: normal;
+}
+#header_links{
+list-style:none;
+
+float:right;
+margin:0px;
+padding:0px;
+}
+
+#header_links li{
+display:inline-block;
+margin:5px 5px;
+}
+#header_links a{
+text-decoration:none;
+font-size:9pt;
+
 }
