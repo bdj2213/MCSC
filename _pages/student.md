@@ -4,6 +4,8 @@ title: Students
 permalink: /about/student.html
 category: research
 ---
+
+<h1>Students</h1>
 <h3>Samuel Barton</h3>
 Samuel Barton is a sophomore at USM majoring in Computer Science. He is a MCSC Student Research Associate and specializes in computer programing. Samuel is working on The Sensor Project. 
 

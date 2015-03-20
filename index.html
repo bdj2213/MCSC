@@ -8,12 +8,12 @@ permalink: /
   <h2 class="page-heading" style="font-size:18pt; margin-bottom:10px;">Latest News</h2>
   <hr></hr>
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories.mcsc %}
       <li>
    
 
           <h4></h4>
-          <a class="post-link" style="font-size:14pt; <h4></h4>" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" style="font-size:14pt;" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           
         
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -22,6 +22,6 @@ permalink: /
     {% endfor %}
   </ul>
   <br />
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
