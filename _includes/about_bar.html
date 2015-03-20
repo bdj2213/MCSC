@@ -22,7 +22,7 @@
 							<h3 style="margin-bottom:5px;">Latest Posts</h3>
 							<div class="sidebar-widget search">
 								<ul class="post-list">
-    								{% for post in site.posts %}
+    								{% for post in site.categories.mcscnews %}
       									<li>
   
         									<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title }}</a>
