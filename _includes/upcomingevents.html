@@ -3,25 +3,26 @@
 							<!-- ~~~~~~~~~~~~~~~~~ -->
 							<div class="sidebar-widget posts">
 								<!-- Title -->
-								<h2 style="margin-bottom:10px;">Upcoming Events</h2>
-								<hr></hr>	
+								<h3>Upcoming Events</h3>
+								
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<!-- Post -->
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<div class="post">
-
+									<ul class ="post-list">
 									{% for post in site.categories.upcoming %}
-      									<li style="list-style:none;">
+      									<li>
    
 
-         									<h4></h4>
-          									<a class="post-link" style="font-size:14pt;" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+         									
+          									<h4><a class="post-link"  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
           
         
         									<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
     							 		 </li>
       
    									 {% endfor %}
+   									<ul>
    								</div>
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<!-- END Post -->
