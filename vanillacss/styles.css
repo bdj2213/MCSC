@@ -3608,6 +3608,7 @@ color:#FFFFFF;
 .home .sidebar-widget h3{
 	font-size:1.2em;
 	border-bottom:1px solid #DADADA;
-	padding-bottom:0.5em;
+	padding:0.25em 0 0.65em;
+	margin: 0;
 	float:none;
 }
