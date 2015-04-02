@@ -491,7 +491,7 @@ body.home .main-content-inner {
 }
 .topnav, .topnav li a, .topnav li {
 	height:40px;
-	color:#1B222E;
+	color:#FFFFFF;
 }
 /* -------------------------------- */
 /* White Top Bar Properties */
@@ -834,6 +834,7 @@ body.home .topbar-outer.dark {
 /* --------------------------------------------------------------------------------- */
 /* Home Page Banner
 /* --------------------------------------------------------------------------------- */
+
 .home-banner {
 	width: 100%;
 	background-image: url(); /* Put your banner background image here or use inline CSS for each slide */
@@ -843,6 +844,7 @@ body.home .topbar-outer.dark {
 	min-height: 107px;
 	position: relative;
 }
+
 .home-banner.dark {
 	background-color: #1b222e;
 	color: rgba(255,255,255,0.7);
@@ -2505,12 +2507,12 @@ i {
 .dark-bg .sidebar-widget h3.sub-title a:hover {
 	color: #fff;
 }
-.sidebar-widget.categories a {
+.sidebar-widget.categories li {
 	margin-bottom: 12px;
 	float: left;
 	clear: both;
 }
-.sidebar-widget.categories a:last-child {
+.sidebar-widget.categories li:last-child {
 	margin-bottom: 0;
 }
 .sidebar-widget.search .container {
@@ -3575,8 +3577,9 @@ i {
 list-style:none;
 
 float:right;
-margin:0px;
+margin:1em 0 0;
 padding:0px;
+
 }
 
 #header_links li{
@@ -3586,5 +3589,25 @@ margin:5px 5px;
 #header_links a{
 text-decoration:none;
 font-size:9pt;
+color:#FFFFFF;
 
+}
+
+.home h2{
+	font-size:1.6em;
+	border-bottom:1px solid #DADADA;
+	padding-bottom:0.5em;
+}
+.home .post-link{
+	color:#2C7EBE;
+	font-size:1.2em;
+}
+.home .post-list li{
+	margin-bottom:2em;
+}
+.home .sidebar-widget h3{
+	font-size:1.2em;
+	border-bottom:1px solid #DADADA;
+	padding-bottom:0.5em;
+	float:none;
 }
