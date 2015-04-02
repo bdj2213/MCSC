@@ -46,5 +46,7 @@
 - title: "Resources"
   href: "resources/"
   subcategories:
+    - subtitle: "Resources"
+      subhref: "resources/"
     - subtitle: "Calendar of Events"
       subhref: "resources/coe.html"
