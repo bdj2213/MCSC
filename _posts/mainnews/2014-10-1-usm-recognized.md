@@ -2,7 +2,7 @@
 layout: post
 title:  "University of Maine System recognized as one of the nation's premier academic leaders in the area of cybersecurity education"
 date:   2014-10-01 21:19:48
-categories: mcscnews
+categories: mcscnews news
 
 ---
 
