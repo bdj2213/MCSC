@@ -1,19 +1,11 @@
 ---
-layout: edu
-title: Outreach
-permalink: /education/outreach.html
-category: education
+layout: post
+title:  "Vigilant Guard 14,
+2007, 2010, 2011, 2013."
+date:   2013-12-28 21:19:48
+categories: archive
+
 ---
-
-<h1>Outreach</h1>
-<h3>Cybersecurity Guides</h3>
-<ul class="about_list">	
-	<li ><a href="{{ site.baseurl }}pdf/sbcsguide.pdf" download="sbcsguide">Small Business Cybersecurity Guide</a></li>
-	<li ><a href="{{ site.baseurl }}pdf/sbcsguide_trifold.pdf" download="sbcsguide_trifold">Small Business Cybersecurity Guide Trifold</a></li>
-</ul>
-
-
-<h3>Vigilant Guard 14</h3>
 MCSC in partnership with the Maine Air National Guard were able to 
 provide simulated and real cyber events to private industry&#44; local&#44; 
 state and federal agencies as part of the Vigilant Guard 14 disaster 
