@@ -9,6 +9,7 @@
 								<!-- Post -->
 								<!-- ~~~~~~~~~~~~~~~~~ -->
 								<div class="post">
+									
 									<ul class ="post-list">
 									{% for post in site.categories.announce %}
       									<li>
@@ -18,7 +19,7 @@
           									<h4><a class="post-link"  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
           
         
-        									<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        									<p class="post-meta">{{ post.date | date: "%b %Y" }}</p>
     							 		 </li>
       
    									 {% endfor %}

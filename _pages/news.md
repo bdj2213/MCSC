@@ -15,7 +15,7 @@ category: news
           <a class="post-link" style="font-size:14pt;" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           
         
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p class="post-meta">{{ post.date | date: "%b %Y" }}</p>
       </li>
       
     {% endfor %}
